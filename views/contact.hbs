@@ -11,8 +11,9 @@
 <body>
   <div class="container">
     <h1 class="banner">Please contact me</h1>
+    {{msg}}
     <div class="contact-container">
-      <form action="/send">
+      <form action="/send" method="POST">
         <p>
           <label for="name">Name
           </label>
